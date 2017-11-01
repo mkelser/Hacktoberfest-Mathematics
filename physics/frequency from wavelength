@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class wavelength {
+  public static void main (String []args) {
+    long wavelength = 0.0;
+    long frequency = 0.0;
+    long speedOfLight = 299,792,458
+    Scanner scnr = new Scanner(System.in);
+    
+    System.out.println("Enter wavelength");
+    wavelength = newInt();
+    
+    frequency = speedOfLight/wavelength;
+    System.out.println("Frequency: " + frequency + "/s");
+    
+  }
+}
+    
+    
+    
